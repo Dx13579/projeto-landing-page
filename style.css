@@ -1,0 +1,164 @@
+
+*{
+    margin: 0px;
+   
+}
+
+#menu_superior{
+ background-image: url(imagens/fundos/fundo-menu-superior.svg);
+    color: aliceblue;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+   
+}
+#titulo-menu{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#paragrafo-titulo{
+     margin-left: 150px;
+     margin-top: 35px;
+     padding-bottom: 100px;
+}
+
+#menu_informacional{
+
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#secao_video{
+    font-family: "inter";
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo_secao_video{
+    color: #247BA0;
+    
+}
+
+#paragrafo_secao_video{
+    color: #383838;
+}
+#video{
+    margin: 25px 25px 50px 100px;
+}
+#texto_do_video{
+    margin-top: 25px;
+}
+
+#carrosel{
+    background-image: url(imagens/fundos/fundo-carrosel.svg);
+    font-family: "inter";
+}
+   
+
+
+#titulo_carrosel{
+    color: #EAECE5;
+    text-align: center;
+    padding-top: 50px;
+    
+   
+}
+
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+
+}
+
+.card{
+    
+ margin-left: 50px;
+ padding-top: 5%;
+ padding-bottom: 5%;
+    
+}
+
+#card-samanta{
+    display: none;
+}
+
+#seta_esquerda{
+    display: none;
+    padding-top: 25%;
+    padding-left: 50%;
+   
+}
+
+.seta{
+    margin-top: 30%;
+     cursor: pointer;
+    
+}
+
+#seta_direita{
+    padding-right: 100%;
+}
+
+.seta:hover{
+     transform: translateY(-7px);
+     transition-duration: 0.5s;
+}
+
+#titulo_formulario{
+    color:#383838 ;
+    padding-top: 2.5%;
+    
+    
+}
+
+#formulario{
+      text-align: center;
+}
+
+#nome{
+    margin-top: 1%;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color:#EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+ background-color: #5ba5c5;
+ color: white;
+ transform: translateY(-7px);
+ box-shadow: 0px 15px 20px  #0a4d69;
+}
