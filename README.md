@@ -1,2 +1,3 @@
 # projeto-landing-page
-Esse é o projrto de desenvolvimento do modulo base do curso d tecnologia da escola DNC
+
+Landing Page criada como projeto pessoal para demonstrar minhas habilidades como programador front-end e meu domínio de HTML, CSS e JavaScript.
